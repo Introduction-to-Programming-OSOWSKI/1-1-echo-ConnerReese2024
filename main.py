@@ -1,1 +1,4 @@
-#WRITE YOUR CODE IN THIS FILE
+def echo():
+    return ("hello there!" * 5)
+
+print(echo())
