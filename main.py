@@ -1,4 +1,4 @@
-def echo():
-    return ("hello there!" , 5)
+def echo(hellothere, world):
+    return hellothere * world 
 
-print(echo())
+print (echo("hello", 5))
